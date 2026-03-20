@@ -1,0 +1,16 @@
+img{
+   
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
+ul a{
+  text-decoration: none;
+}
+
+ul a:hover{
+  text-decoration: underline;
+}

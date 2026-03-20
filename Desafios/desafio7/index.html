@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAFIO7</title>
+    
+</head>
+<body>
+    <h1>IMAGEM FLEXIVEL</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar a imagem o tamanho da <br> sua janela para aproveitar a melhor experiência.</p>
+   <picture>
+        <source media="(max-width: 600px )" srcset="imagens/paisagem-p.png">
+        <source media="(max-width: 900px)" srcset="imagens/paisagem-m.png">
+       <img src="imagens/paisagem-g.png" alt="foto de mulher observando a paisagem">
+   </picture>
+</body>
+</html>
